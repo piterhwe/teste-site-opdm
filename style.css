@@ -112,11 +112,13 @@
 
 .index-content-text-1{
     display: flex;
-    width: 850px;
+    width: 1700px;
     text-align: justify;
     font-size: 1.2rem;
     padding: 150px 0% 0% 150px;
     color: #656565;
+    align-items: center;
+    gap: 25px;
 }
 
 .index-content-text-2{
@@ -131,14 +133,9 @@
 .carrossel-1{
     display: flex;
     width: 850px;
-    min-height: 100vh;
     align-items: center;
     justify-content: center;
     gap: 15px;
-    position: absolute;
-    left: 73%;
-    top: 60%;
-    transform: translate(-50%, -50%);
 }
 
 .container-imgs{
@@ -153,7 +150,7 @@
     opacity: 0;
     transition: opacity .3s;
     position: absolute;
-    width: 700px;
+    width: 100%;
     border-radius: 10px;
 }
 
